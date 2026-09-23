@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://penida.io/sitemap.xml

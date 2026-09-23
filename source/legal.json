@@ -1,0 +1,162 @@
+{
+  "updated": "September 23, 2026",
+  "company": {
+    "name": "PENIDA",
+    "form": "SAS",
+    "address": "14 rue Charles V, 75004 Paris, France",
+    "siren": "880 337 084",
+    "siret": "880 337 084 00037",
+    "email": "penidastudio@gmail.com",
+    "registry": "https://annuaire-entreprises.data.gouv.fr/entreprise/penida-880337084"
+  },
+  "pages": [
+    {
+      "path": "/privacy-policy",
+      "title": "Privacy Policy",
+      "intro": "How Penida handles personal information on this website, and where to find the policy for each app.",
+      "sections": [
+        [
+          "who-we-are",
+          "1. Who is responsible",
+          "<p>This website is operated by PENIDA, a French société par actions simplifiée (SAS), registered under SIREN 880 337 084, with its registered office at 14 rue Charles V, 75004 Paris, France. Contact <a href=\"mailto:penidastudio@gmail.com\">penidastudio@gmail.com</a> about privacy or your personal information.</p><p>This notice covers the Penida studio website and enquiries sent to our team. For an application, refer to its own privacy policy linked below.</p>"
+        ],
+        [
+          "information",
+          "2. Information involved",
+          "<p><strong>Website delivery:</strong> network requests include an IP address, browser information and the requested page. The hosting service needs these to deliver and protect the website.</p><p><strong>Enquiries:</strong> when you contact us by email or live chat, we receive the information you choose to send, such as your name, email address, store URL, message and attachments.</p><p><strong>Support chat:</strong> this site uses Orka. The widget loads automatically when you visit a page and connects your browser to Orka; the service can process conversation content, session identifiers and page or device context needed for support. Please avoid sharing passwords, payment card details or unnecessary sensitive information.</p><p>Reading the website does not create a Shopify or Penida app account. Images, logos and fonts are served with this website.</p>"
+        ],
+        [
+          "purposes",
+          "3. Why information is used",
+          "<p>We use information to answer enquiries, provide requested assistance, discuss a potential business relationship, keep the website working and prevent abuse. Where GDPR applies, the relevant basis is taking steps you request before a contract or performing a contract, our legitimate interests in responding to enquiries and maintaining a secure website, or a legal obligation. Consent applies where it is required for an optional activity.</p><p>You choose whether to contact us. Without enough information to understand and answer a request, we may be unable to help. We do not use this website to make decisions that produce legal or similarly significant effects about you solely by automated processing.</p>"
+        ],
+        [
+          "recipients",
+          "4. Recipients and linked services",
+          "<p>Our authorized team and providers involved in hosting, communications and support receive information needed for their role. Orka provides the support widget; its <a href=\"https://orka.chat/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">privacy policy</a> explains its service. Information may also be disclosed to meet a legal obligation or protect lawful rights.</p><p>We do not sell personal information. Clicking a product, Shopify or social link takes you to a separate service whose own policy applies. No advertising or audience-measurement script is included in this version of the studio website.</p>"
+        ],
+        [
+          "retention",
+          "5. Retention",
+          "<p>We retain enquiries and related correspondence for the time needed to handle the request, maintain the relevant business relationship and address any legal or dispute requirements. Security records are kept for the period needed to investigate incidents and protect the service. The period depends on the record and purpose; contact us for the retention information relevant to your request.</p><p>App account, booking, order and customer data follow the relevant app’s arrangements. Uninstalling an app and deleting an email or support conversation are separate processes.</p>"
+        ],
+        [
+          "transfers",
+          "6. Security and international processing",
+          "<p>Access controls and appropriate technical and organizational measures help protect information. No online service can guarantee absolute security.</p><p>Providers can process information outside the European Economic Area. Where GDPR requires safeguards, the relevant processing must be covered by an adequacy decision or an appropriate transfer mechanism, such as standard contractual clauses. Contact us to ask about the providers and safeguards relevant to your data. </p>"
+        ],
+        [
+          "rights",
+          "7. Your choices and rights",
+          "<p>Depending on the applicable law and circumstances, you can request access, correction, erasure, restriction or portability, object to processing and withdraw consent for future processing. You can object to direct marketing. Email <a href=\"mailto:penidastudio@gmail.com\">penidastudio@gmail.com</a> with enough information to locate your request. We may need proportionate identity verification and will respond within the applicable statutory time limits.</p><p>If your question concerns a purchase or booking with a merchant, contact that merchant first. They determine how customer information is used for that relationship.</p><p>You can complain to your local supervisory authority. In France, this is the <a href=\"https://www.cnil.fr/en/complaints\" target=\"_blank\" rel=\"noopener noreferrer\">CNIL</a>.</p>"
+        ],
+        [
+          "app-policies",
+          "8. Policies for our apps",
+          "<ul><li><a href=\"https://cowlendar.com/privacy-policy\">Cowlendar Privacy Policy</a></li><li><a href=\"https://www.bigdigitaldownload.com/privacy-policy\">Big Digital Download Privacy Policy</a></li><li><a href=\"https://orka.chat/privacy-policy\">Orka Privacy Policy</a></li></ul><p>For another application, use the policy linked from its current Shopify listing.</p>"
+        ],
+        [
+          "changes",
+          "9. Updates",
+          "<p>The date at the top identifies this revision. We update this notice when the website or its processing changes and provide additional notice when required. See our <a href=\"/cookie-policy\">Cookie Policy</a> for browser storage and our <a href=\"/legal-notice\">Legal Notice</a> for publisher details.</p>"
+        ]
+      ]
+    },
+    {
+      "path": "/cookie-policy",
+      "title": "Cookie Policy",
+      "intro": "Browser storage and third-party connections on the Penida studio website.",
+      "sections": [
+        [
+          "site",
+          "1. Browsing this website",
+          "<p>The site’s navigation, animations and locally hosted images and fonts do not require advertising or analytics cookies. This version does not include an advertising pixel or an audience-measurement script.</p><p>The website host can process technical network information to serve pages and protect infrastructure. This is distinct from advertising tracking in your browser.</p>"
+        ],
+        [
+          "support",
+          "2. Orka support chat",
+          "<p>The Orka support widget loads automatically when you visit a page. This connects your browser to Orka before you open a conversation. Orka can process technical connection information and use browser storage or session identifiers to operate the widget and maintain conversation context.</p><p>Messages and any details you submit are sent when you use the chat. Closing the window hides it but does not delete its conversation or stored data. For conversation deletion requests, contact <a href=\"mailto:penidastudio@gmail.com\">penidastudio@gmail.com</a>. See <a href=\"https://orka.chat/privacy-policy\">Orka’s Privacy Policy</a> for the service’s handling of personal data.</p>"
+        ],
+        [
+          "choices",
+          "3. Your choices",
+          "<p>You can use <a href=\"mailto:penidastudio@gmail.com\">email</a> to reach us. Choosing not to open a conversation does not prevent the widget from loading. Your browser settings let you inspect, restrict and remove stored site data; content-blocking settings can also restrict third-party connections. Blocking storage can affect the chat.</p><p>Linked websites, including Shopify and product websites, have their own cookie practices.</p>"
+        ],
+        [
+          "contact",
+          "4. Contact and changes",
+          "<p>For questions about this notice, contact PENIDA at <a href=\"mailto:penidastudio@gmail.com\">penidastudio@gmail.com</a> or 14 rue Charles V, 75004 Paris, France. We will update this notice if additional storage or tracking features are introduced.</p>"
+        ]
+      ]
+    },
+    {
+      "path": "/terms-and-conditions",
+      "title": "Website Terms & Conditions",
+      "intro": "Terms for visiting the Penida studio website. Product subscriptions follow their own applicable terms.",
+      "sections": [
+        [
+          "scope",
+          "1. Scope and publisher",
+          "<p>This website presents the apps and work of the Penida studio. It is published by PENIDA SAS, SIREN 880 337 084, 14 rue Charles V, 75004 Paris, France. Contact <a href=\"mailto:penidastudio@gmail.com\">penidastudio@gmail.com</a> with questions.</p><p>These terms concern use of the informational website. They do not replace a product’s terms, Shopify’s terms, a subscription agreement or a data-processing agreement.</p>"
+        ],
+        [
+          "products",
+          "2. Product information",
+          "<p>Product descriptions, review counts, usage statistics and articles provide information about the studio and its apps. Product features and prices can change. Review the relevant product website and current Shopify listing before choosing an app; the plan and terms shown during subscription govern your purchase.</p><p>No subscription or payment is completed on this studio website. Links and live chat let you learn about products or contact the team.</p>"
+        ],
+        [
+          "use",
+          "3. Permitted use",
+          "<p>You may browse the website and use its links to learn about our services. Do not interfere with its operation, attempt unauthorized access, submit malicious content or use the site unlawfully. Only send support information you are entitled to disclose.</p>"
+        ],
+        [
+          "intellectual-property",
+          "4. Content and third-party brands",
+          "<p>The website’s text, branding, images and other content are protected by applicable intellectual-property rights. Rights in third-party logos and names remain with their respective owners. Their display does not grant a license to use their trademarks or imply a partnership beyond the context stated on the page.</p><p>Contact us before reusing site content beyond what applicable law permits.</p>"
+        ],
+        [
+          "availability",
+          "5. Availability and external links",
+          "<p>We seek to keep the website accurate and accessible, but interruptions and errors can occur. Links to external websites are provided for convenience; those services control their own content, availability and policies. Articles are general information, not a guarantee of business results.</p><p>Nothing in these terms excludes liability or rights that cannot lawfully be excluded. Product-specific commitments are governed by the relevant product agreement.</p>"
+        ],
+        [
+          "privacy",
+          "6. Privacy",
+          "<p>Our <a href=\"/privacy-policy\">Privacy Policy</a> and <a href=\"/cookie-policy\">Cookie Policy</a> explain how this website and its support chat handle information. A privacy notice provides information about processing; it does not make all processing conditional on blanket agreement to that notice.</p>"
+        ],
+        [
+          "law",
+          "7. Applicable law and contact",
+          "<p>French law applies to these website terms, subject to any mandatory protections available to you. Where a dispute arises, contact us first at <a href=\"mailto:penidastudio@gmail.com\">penidastudio@gmail.com</a> so we can try to resolve it. Jurisdiction is determined by applicable law.</p><p>We may update these terms. The revision date identifies the current website version.</p>"
+        ]
+      ]
+    },
+    {
+      "path": "/legal-notice",
+      "title": "Legal Notice",
+      "intro": "Publisher and contact information for Penida.",
+      "sections": [
+        [
+          "publisher",
+          "1. Website publisher",
+          "<p><strong>PENIDA</strong><br>Société par actions simplifiée (SAS)<br>14 rue Charles V, 75004 Paris, France<br>SIREN: 880 337 084<br>SIRET: 880 337 084 00037<br>VAT: FR24880337084<br>Share capital: €1,000<br>Registered with the Paris trade and companies register under number 880 337 084.</p><p>Email: <a href=\"mailto:penidastudio@gmail.com\">penidastudio@gmail.com</a></p><p><a href=\"https://annuaire-entreprises.data.gouv.fr/entreprise/penida-880337084\" target=\"_blank\" rel=\"noopener noreferrer\">View the official company record</a>.</p>"
+        ],
+        [
+          "studio",
+          "2. The studio and its apps",
+          "<p>Penida is the studio founded by Marc and Charles. For the application you use, consult its own policy and contractual information. Our <a href=\"/privacy-policy#app-policies\">app policy directory</a> links to the relevant notices.</p>"
+        ],
+        [
+          "hosting",
+          "3. Website hosting",
+          "<p>This version of the website is published through OpenAI Sites and served using Cloudflare infrastructure.</p><p>Cloudflare, Inc.<br>101 Townsend Street, San Francisco, CA 94107, United States<br><a href=\"https://www.cloudflare.com/privacypolicy/\" target=\"_blank\" rel=\"noopener noreferrer\">Cloudflare privacy and contact information</a></p>"
+        ],
+        [
+          "contact",
+          "4. Content and privacy requests",
+          "<p>For a correction, a question about the website or a privacy request, email <a href=\"mailto:penidastudio@gmail.com\">penidastudio@gmail.com</a>. Product-specific support is also available through each app.</p><p>See the <a href=\"/privacy-policy\">Privacy Policy</a>, <a href=\"/cookie-policy\">Cookie Policy</a> and <a href=\"/terms-and-conditions\">Website Terms & Conditions</a>.</p>"
+        ]
+      ]
+    }
+  ]
+}

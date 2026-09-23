@@ -1,0 +1,411 @@
+[
+  {
+    "url": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/nike.svg",
+    "local": "/assets/d0d07f11b4-nike.svg",
+    "ok": true,
+    "bytes": 397,
+    "error": null
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/shopify.svg",
+    "local": "/assets/49d7b2fb9f-shopify.svg",
+    "ok": true,
+    "bytes": 1234,
+    "error": null
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/zalando.svg",
+    "local": "/assets/7037307554-zalando.svg",
+    "ok": true,
+    "bytes": 467,
+    "error": null
+  },
+  {
+    "url": "https://cdn.shopify.com/app-store/listing_images/ca2130045ba215189929847aa098d51f/icon/CKGMtZrmgZMDEAE=.png",
+    "local": "/assets/e01f2a2ea4-CKGMtZrmgZMDEAE=-768.webp",
+    "ok": true,
+    "bytes": 34074,
+    "error": null,
+    "originalLocal": "/assets/e01f2a2ea4-CKGMtZrmgZMDEAE=.png",
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "/assets/e01f2a2ea4-CKGMtZrmgZMDEAE=-480.webp",
+        "width": 480,
+        "bytes": 20798
+      },
+      {
+        "file": "/assets/e01f2a2ea4-CKGMtZrmgZMDEAE=-768.webp",
+        "width": 768,
+        "bytes": 34074
+      }
+    ]
+  },
+  {
+    "url": "https://cdn.shopify.com/app-store/listing_images/d0f99a41b136f0eca7dda8380bce3689/icon/CKnr_v38npQDEAE=.png",
+    "local": "/assets/cf09804725-CKnr_v38npQDEAE=-768.webp",
+    "ok": true,
+    "bytes": 39482,
+    "error": null,
+    "originalLocal": "/assets/cf09804725-CKnr_v38npQDEAE=.png",
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "/assets/cf09804725-CKnr_v38npQDEAE=-480.webp",
+        "width": 480,
+        "bytes": 23662
+      },
+      {
+        "file": "/assets/cf09804725-CKnr_v38npQDEAE=-768.webp",
+        "width": 768,
+        "bytes": 39482
+      }
+    ]
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/2503a2b1/decath.svg",
+    "local": "/assets/080f045526-decath.svg",
+    "ok": true,
+    "bytes": 771,
+    "error": null
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/411f548b/leo-ai-Moyenne.jpeg",
+    "local": "/assets/564f1adf75-leo-ai-Moyenne-400.webp",
+    "ok": true,
+    "bytes": 17846,
+    "error": null,
+    "originalLocal": "/assets/564f1adf75-leo-ai-Moyenne.jpeg",
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "file": "/assets/564f1adf75-leo-ai-Moyenne-200.webp",
+        "width": 200,
+        "bytes": 6140
+      },
+      {
+        "file": "/assets/564f1adf75-leo-ai-Moyenne-400.webp",
+        "width": 400,
+        "bytes": 17846
+      }
+    ]
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/438ec5dd/EOE.png",
+    "local": "/assets/6030226eea-EOE-768.webp",
+    "ok": true,
+    "bytes": 10564,
+    "error": null,
+    "originalLocal": "/assets/6030226eea-EOE.png",
+    "width": 1014,
+    "height": 570,
+    "variants": [
+      {
+        "file": "/assets/6030226eea-EOE-480.webp",
+        "width": 480,
+        "bytes": 6298
+      },
+      {
+        "file": "/assets/6030226eea-EOE-768.webp",
+        "width": 768,
+        "bytes": 10564
+      }
+    ]
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/4aa6e224/gymshark-seeklogo.svg",
+    "local": "/assets/3f0f8e6304-gymshark-seeklogo.svg",
+    "ok": true,
+    "bytes": 905,
+    "error": null
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/79646874/DALLE-2025-01-05-13.27.59-Two-men-in-Pixar-style-sitting-by-an-infinity-pool-in-a-serene-jungle-setting-with-MacBooks-open-in-front-of-them.-One-man-has-long-hair-and-the-oth.webp",
+    "local": "/assets/467a019e77-DALLE-2025-01-05-13.27.59-Two-men-in-Pixar-style--1200.webp",
+    "ok": true,
+    "bytes": 131026,
+    "error": null,
+    "originalLocal": "/assets/467a019e77-DALLE-2025-01-05-13.27.59-Two-men-in-Pixar-style-.webp",
+    "width": 1792,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "/assets/467a019e77-DALLE-2025-01-05-13.27.59-Two-men-in-Pixar-style--480.webp",
+        "width": 480,
+        "bytes": 27094
+      },
+      {
+        "file": "/assets/467a019e77-DALLE-2025-01-05-13.27.59-Two-men-in-Pixar-style--1200.webp",
+        "width": 1200,
+        "bytes": 131026
+      }
+    ]
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/7cea77c8/new-gap-logo.svg",
+    "local": "/assets/06ffd833b2-new-gap-logo.svg",
+    "ok": true,
+    "bytes": 978,
+    "error": null
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/905857f4/DD.png",
+    "local": "/assets/78fa7d7312-DD-1014.webp",
+    "ok": true,
+    "bytes": 167720,
+    "error": null,
+    "originalLocal": "/assets/78fa7d7312-DD.png",
+    "width": 1014,
+    "height": 570,
+    "variants": [
+      {
+        "file": "/assets/78fa7d7312-DD-480.webp",
+        "width": 480,
+        "bytes": 34528
+      },
+      {
+        "file": "/assets/78fa7d7312-DD-1014.webp",
+        "width": 1014,
+        "bytes": 167720
+      }
+    ]
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/c6a09277/penidalogo.png",
+    "local": "/assets/201a1da4e1-penidalogo-411.webp",
+    "ok": true,
+    "bytes": 8138,
+    "error": null,
+    "originalLocal": "/assets/201a1da4e1-penidalogo.png",
+    "width": 411,
+    "height": 162,
+    "variants": [
+      {
+        "file": "/assets/201a1da4e1-penidalogo-320.webp",
+        "width": 320,
+        "bytes": 12642
+      },
+      {
+        "file": "/assets/201a1da4e1-penidalogo-411.webp",
+        "width": 411,
+        "bytes": 8138
+      }
+    ]
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/c75831bf/COWLENDAR.png",
+    "local": "/assets/c9ceb94e24-COWLENDAR-1014.webp",
+    "ok": true,
+    "bytes": 9516,
+    "error": null,
+    "originalLocal": "/assets/c9ceb94e24-COWLENDAR.png",
+    "width": 1014,
+    "height": 570,
+    "variants": [
+      {
+        "file": "/assets/c9ceb94e24-COWLENDAR-480.webp",
+        "width": 480,
+        "bytes": 3980
+      },
+      {
+        "file": "/assets/c9ceb94e24-COWLENDAR-1014.webp",
+        "width": 1014,
+        "bytes": 9516
+      }
+    ]
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/cc75ba2f/ORKA.png",
+    "local": "/assets/73d70258de-ORKA-1014.webp",
+    "ok": true,
+    "bytes": 8452,
+    "error": null,
+    "originalLocal": "/assets/73d70258de-ORKA.png",
+    "width": 1014,
+    "height": 570,
+    "variants": [
+      {
+        "file": "/assets/73d70258de-ORKA-480.webp",
+        "width": 480,
+        "bytes": 3994
+      },
+      {
+        "file": "/assets/73d70258de-ORKA-1014.webp",
+        "width": 1014,
+        "bytes": 8452
+      }
+    ]
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/d3a9508b/Artboard.png",
+    "local": "/assets/2a2f184426-Artboard.png",
+    "ok": true,
+    "bytes": 2024,
+    "error": null,
+    "width": 115,
+    "height": 115
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/d9757aec/allbirds-seeklogo.svg",
+    "local": "/assets/89abed43a6-allbirds-seeklogo.svg",
+    "ok": true,
+    "bytes": 630,
+    "error": null
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/da66ee4c/id2spwitEC_1736176779990.svg",
+    "local": "/assets/9ed7a1a3f2-id2spwitEC_1736176779990.svg",
+    "ok": true,
+    "bytes": 20761,
+    "error": null
+  },
+  {
+    "url": "https://dd-prod-us-west.s3.us-west-004.backblazeb2.com/files/digitaldownloadapp/ecd7c8c8/AM.png",
+    "local": "/assets/41980224fb-AM-768.webp",
+    "ok": true,
+    "bytes": 5266,
+    "error": null,
+    "originalLocal": "/assets/41980224fb-AM.png",
+    "width": 1014,
+    "height": 570,
+    "variants": [
+      {
+        "file": "/assets/41980224fb-AM-480.webp",
+        "width": 480,
+        "bytes": 3236
+      },
+      {
+        "file": "/assets/41980224fb-AM-768.webp",
+        "width": 768,
+        "bytes": 5266
+      }
+    ]
+  },
+  {
+    "url": "https://res.cloudinary.com/dbsgz8eev/image/upload/v1736004267/orka-thumbnails-prod/4f01f694-01ca-42b2-a2fd-b1138ce0b15c.webp",
+    "local": "/assets/254bb2bad3-4f01f694-01ca-42b2-a2fd-b1138ce0b15c-400.webp",
+    "ok": true,
+    "bytes": 32500,
+    "error": null,
+    "originalLocal": "/assets/254bb2bad3-4f01f694-01ca-42b2-a2fd-b1138ce0b15c.webp",
+    "width": 500,
+    "height": 500,
+    "variants": [
+      {
+        "file": "/assets/254bb2bad3-4f01f694-01ca-42b2-a2fd-b1138ce0b15c-200.webp",
+        "width": 200,
+        "bytes": 13022
+      },
+      {
+        "file": "/assets/254bb2bad3-4f01f694-01ca-42b2-a2fd-b1138ce0b15c-400.webp",
+        "width": 400,
+        "bytes": 32500
+      }
+    ]
+  },
+  {
+    "url": "https://res.cloudinary.com/dbsgz8eev/image/upload/w_200,h_200/v1736003408/orka-thumbnails-prod/86c0b62a-ac01-4fd1-bdec-a8c10c992f67.jpg",
+    "local": "/assets/6942eeb4ca-86c0b62a-ac01-4fd1-bdec-a8c10c992f67-200.webp",
+    "ok": true,
+    "bytes": 11724,
+    "error": null,
+    "originalLocal": "/assets/6942eeb4ca-86c0b62a-ac01-4fd1-bdec-a8c10c992f67.jpg",
+    "width": 200,
+    "height": 200,
+    "variants": [
+      {
+        "file": "/assets/6942eeb4ca-86c0b62a-ac01-4fd1-bdec-a8c10c992f67-200.webp",
+        "width": 200,
+        "bytes": 11724
+      }
+    ]
+  },
+  {
+    "url": "https://res.cloudinary.com/dbsgz8eev/image/upload/w_200,h_200/v1736004314/orka-thumbnails-prod/80683c68-a87f-46ab-b6bb-eafe419d8531.webp",
+    "local": "/assets/cd2ae1370f-80683c68-a87f-46ab-b6bb-eafe419d8531-200.webp",
+    "ok": true,
+    "bytes": 8860,
+    "error": null,
+    "originalLocal": "/assets/cd2ae1370f-80683c68-a87f-46ab-b6bb-eafe419d8531.webp",
+    "width": 200,
+    "height": 200,
+    "variants": [
+      {
+        "file": "/assets/cd2ae1370f-80683c68-a87f-46ab-b6bb-eafe419d8531-200.webp",
+        "width": 200,
+        "bytes": 8860
+      }
+    ]
+  },
+  {
+    "url": "https://res.cloudinary.com/dbsgz8eev/image/upload/w_200,h_200/v1736009639/orka-thumbnails-prod/38371d29-8d44-4ac9-bdc6-5fc8deec58c4.png",
+    "local": "/assets/f494c3c475-38371d29-8d44-4ac9-bdc6-5fc8deec58c4-200.webp",
+    "ok": true,
+    "bytes": 8380,
+    "error": null,
+    "originalLocal": "/assets/f494c3c475-38371d29-8d44-4ac9-bdc6-5fc8deec58c4.png",
+    "width": 200,
+    "height": 200,
+    "variants": [
+      {
+        "file": "/assets/f494c3c475-38371d29-8d44-4ac9-bdc6-5fc8deec58c4-200.webp",
+        "width": 200,
+        "bytes": 8380
+      }
+    ]
+  },
+  {
+    "url": "https://res.cloudinary.com/dbsgz8eev/image/upload/w_200,h_200/v1736038481/orka-thumbnails-prod/001373af-a395-4470-a75a-175abab263db.webp",
+    "local": "/assets/1d7527bb1b-001373af-a395-4470-a75a-175abab263db-200.webp",
+    "ok": true,
+    "bytes": 10010,
+    "error": null,
+    "originalLocal": "/assets/1d7527bb1b-001373af-a395-4470-a75a-175abab263db.webp",
+    "width": 200,
+    "height": 200,
+    "variants": [
+      {
+        "file": "/assets/1d7527bb1b-001373af-a395-4470-a75a-175abab263db-200.webp",
+        "width": 200,
+        "bytes": 10010
+      }
+    ]
+  },
+  {
+    "url": "https://res.cloudinary.com/dbsgz8eev/image/upload/w_200,h_200/v1736077500/orka-thumbnails-prod/974a18b3-1dd8-4c2b-85cc-2c829fb8a343.jpg",
+    "local": "/assets/dfc1123974-974a18b3-1dd8-4c2b-85cc-2c829fb8a343-200.webp",
+    "ok": true,
+    "bytes": 13296,
+    "error": null,
+    "originalLocal": "/assets/dfc1123974-974a18b3-1dd8-4c2b-85cc-2c829fb8a343.jpg",
+    "width": 200,
+    "height": 200,
+    "variants": [
+      {
+        "file": "/assets/dfc1123974-974a18b3-1dd8-4c2b-85cc-2c829fb8a343-200.webp",
+        "width": 200,
+        "bytes": 13296
+      }
+    ]
+  },
+  {
+    "url": "https://res.cloudinary.com/dbsgz8eev/image/upload/w_200,h_200/v1736138683/orka-thumbnails-prod/480753a4-43a5-402f-a604-e93baf2edcbb.jpg",
+    "local": "/assets/909f27e051-480753a4-43a5-402f-a604-e93baf2edcbb-200.webp",
+    "ok": true,
+    "bytes": 10626,
+    "error": null,
+    "originalLocal": "/assets/909f27e051-480753a4-43a5-402f-a604-e93baf2edcbb.jpg",
+    "width": 200,
+    "height": 200,
+    "variants": [
+      {
+        "file": "/assets/909f27e051-480753a4-43a5-402f-a604-e93baf2edcbb-200.webp",
+        "width": 200,
+        "bytes": 10626
+      }
+    ]
+  }
+]

@@ -1,0 +1,583 @@
+# Penida — complete reference
+
+Updated: September 23, 2026.
+
+# How to Launch a Shopify App: The Complete Guide
+
+A Shopify app starts with a merchant workflow worth improving. This guide takes you from a specific problem to a first working release, a review-ready listing and a measurable launch. It uses booking, digital delivery and customer support as examples from the categories featured at Penida.
+
+## 1. Validate a problem before choosing features
+
+Talk to merchants who already perform the task you want to simplify. Ask them to show you their current process: the spreadsheet they update, the support ticket they copy or the order they correct by hand. A recent example is more useful than an answer to “Would you use this?”
+
+Write a one-page problem brief covering the merchant type, frequency of the task, current workaround, cost of a mistake and person responsible for buying a solution. Compare existing apps and Shopify’s native features before deciding that a gap exists.
+
+For a booking app, “sell appointments” is broad. “Let a small workshop sell places in a class without exceeding its room capacity” gives you a concrete workflow to test. Interview several businesses with that same need. A merchant agreeing to try a working prototype is a stronger signal than a compliment on a mockup.
+
+## 2. Build one complete workflow
+
+Your first version should take a merchant from installation to a useful outcome. For a digital-delivery app, that might be: attach a file to a product, place a test order, receive the download and confirm that the customer can access it.
+
+Document the failure cases alongside the happy path. What happens when the file is replaced, an email bounces or the customer requests help? For bookings, consider capacity, time zones, rescheduling and cancellations. For support, consider the handoff when an automated answer is insufficient.
+
+These are planning examples, not a claim that a particular Penida app includes every feature. The current [Cowlendar](https://cowlendar.com), [Big Digital Download](https://www.bigdigitaldownload.com) and [Orka](https://orka.chat) websites describe their actual products.
+
+## 3. Start from Shopify’s current tools
+
+Shopify’s current scaffolding guide recommends its React Router template for most apps accessed through the Shopify admin. The generated project includes authentication and access to the GraphQL Admin API. Follow the current guide so your starting point matches the platform’s supported approach. [Shopify: scaffold an app](https://shopify.dev/docs/apps/build/scaffold-app).
+
+Keep your initial architecture understandable. Separate the merchant interface, background processing and stored settings. Request the access your workflow actually needs. Decide how you will handle retries without duplicating an action, and make it possible to diagnose a failed operation without collecting unnecessary customer information.
+
+Keep secrets on the server, use separate development and production settings, and write down how to restore essential data. These decisions make a small app easier to operate when its first merchants start relying on it.
+
+## 4. Prepare privacy and support before submission
+
+Map the information your app receives, why it needs it, where it is stored and how deletion requests are handled. Publish a privacy notice that describes the implementation, including the providers you actually use. Check Shopify’s required privacy webhooks and test the relevant data request and deletion flows. [Shopify: privacy requirements](https://shopify.dev/docs/apps/launch/privacy-requirements).
+
+Give merchants a clear way to contact you. Prepare answers for setup, billing, uninstalling and the most common operational problem. Avoid promising response times you cannot consistently meet.
+
+## 5. Test with realistic stores
+
+Use a development store to check installation, onboarding, permissions, the main workflow and uninstalling. Test narrow screens, keyboard navigation, slow connections and missing data. If your app changes the storefront, check the themes and configurations you intend to support.
+
+A compact release checklist is easier to repeat than a vague instruction to “test everything”:
+
+| Area | Evidence to collect |
+| --- | --- |
+| Installation | A new merchant can install and reach setup |
+| First value | The core task succeeds with realistic sample data |
+| Failure recovery | A retry does not duplicate a booking, message or delivery |
+| Billing | The merchant understands what is included before accepting a charge |
+| Support | An error gives the merchant a useful next action |
+| Privacy | The relevant data request and deletion flows work |
+
+Keep a record of the store configuration and steps used for each check so that you can repeat them after a change.
+
+## 6. Make the listing match the product
+
+Describe the problem you solve in merchant language. Use screenshots of the real interface and show the setup and outcome. Explain limitations, compatibility and the difference between plans. A demo should support the claims in the listing rather than showing a feature that has not shipped.
+
+Shopify reviews the app and, for a listed app, its listing information. Prepare working access instructions and a clear testing path, and resolve the issues shown in the review process before submitting again. Review duration is not a launch date you can promise. [Shopify: app review process](https://shopify.dev/docs/apps/launch/app-store-review/review-process).
+
+## 7. Price from costs and value
+
+Account for hosting, storage, email, AI usage if applicable, support and payment-related costs. Model what happens when a heavy user joins the lowest plan. A free plan or trial can help merchants evaluate the app, but it should have limits you can explain and sustain.
+
+Check Shopify’s current revenue-share rules directly before calculating margins; eligibility, thresholds and fees should not be inferred from an old article. [Shopify: revenue share](https://shopify.dev/docs/apps/launch/distribution/revenue-share).
+
+## 8. Measure the first release
+
+Define a first-value event before promoting the app: a successful test booking, a delivered file or a resolved support conversation. Track how many eligible installations reach that event and where setup stops. Count retained usage separately from lifetime installs.
+
+Start with a small group of merchants and observe their setup with permission. Fix the repeated point of confusion before adding a new acquisition channel. If users cannot reach value, more traffic mostly creates more support work.
+
+Next, use our [first 1,000 users guide](https://penida.io/blog/first-1000-users-shopify-app) to plan acquisition experiments, or compare the [15 app ideas](https://penida.io/blog/shopify-app-ideas) against the merchant interviews you have already collected.
+
+---
+Source: https://penida.io/blog/how-to-launch-a-shopify-app
+Updated: September 23, 2026
+
+
+---
+
+# 15 Profitable Shopify App Ideas to Build in 2026
+
+Profitability is something to validate, not a property of an idea. These 15 directions are starting points for merchant interviews and small prototypes. They are not verified market gaps, revenue forecasts or evidence that an existing solution is missing.
+
+Before you build, compare Shopify’s native capabilities and current App Store listings. Look for a specific business type, repeated workflow and willingness to pay. A focused improvement to an awkward task can be more valuable than a large collection of features.
+
+## 1. Capacity-aware bookings for a specific service
+
+**Merchant:** a workshop, rental business or class provider selling limited places.
+
+**First version:** one service type, its capacity and a way to prevent conflicting reservations. Use a test booking to check the complete customer journey.
+
+**Validate:** ask the merchant to show the last scheduling conflict. Do they need staff availability, equipment capacity or both? [Cowlendar](https://cowlendar.com) is a product to study in this category; your idea needs a clear reason to exist alongside established apps.
+
+## 2. Digital delivery for a particular file workflow
+
+**Merchant:** a creator selling files that need reliable delivery and occasional updates.
+
+**First version:** attach a file, deliver it after a qualifying order and explain how the customer gets help.
+
+**Validate:** inspect the work behind failed downloads, updated files and repeat requests. Compare the workflow with [Big Digital Download](https://www.bigdigitaldownload.com) and other current products before committing to a new app.
+
+## 3. Post-purchase order corrections
+
+**Merchant:** a store whose support team repeatedly fixes simple order mistakes.
+
+**First version:** one permitted correction within a clearly defined window, with an audit trail and an explicit cutoff.
+
+**Validate:** identify when fulfillment makes an edit unsafe and how changes reach the warehouse. Review [Easy Order Editing](https://easyorderediting.com) and test whether your proposed niche has a different requirement.
+
+## 4. Support handoff for a narrow catalog
+
+**Merchant:** a store with repeated product questions and a small support team.
+
+**First version:** retrieve approved product information, show its source and send uncertain questions to a person. Avoid starting with unrestricted actions on orders.
+
+**Validate:** use actual, permissioned support questions to test incorrect answers and missing information. [Orka](https://orka.chat) illustrates the live-chat category; a new product needs a more specific problem than “add AI.”
+
+## 5. Restock coordination for made-to-order products
+
+**Merchant:** a maker planning production in batches.
+
+**First version:** collect interest for one product, group requests and let the merchant decide when to notify customers.
+
+**Validate:** determine whether interest actually informs production or simply duplicates existing notifications. Check delivery expectations and the difference between an interest list and a paid preorder.
+
+## 6. Product specification completeness
+
+**Merchant:** a store managing a catalog with repeated technical attributes.
+
+**First version:** find missing or inconsistent information for one product category and present a review queue.
+
+**Validate:** use the merchant’s existing data structure. Ask which omissions cause support questions or prevent publication. Do not silently overwrite product information.
+
+## 7. Wholesale reorder preparation
+
+**Merchant:** a business handling repeat orders from trade customers.
+
+**First version:** help prepare a repeat order from a saved assortment, with a review step before submission.
+
+**Validate:** compare the merchant’s Shopify plan and native B2B tools first. Confirm pricing, customer permissions and stock rules before treating this as an app opportunity.
+
+## 8. Return-reason analysis for one product category
+
+**Merchant:** a store with enough returns to see recurring patterns.
+
+**First version:** group the merchant’s existing reason codes and highlight a product or variant that deserves investigation.
+
+**Validate:** check whether the input is consistent enough to support a decision. A dashboard without a clear action is unlikely to justify another subscription.
+
+## 9. A bundle setup assistant
+
+**Merchant:** a store selling a small number of repeatable product combinations.
+
+**First version:** guide the merchant through one bundle type and flag incompatible configuration choices before publication.
+
+**Validate:** inspect current bundle tools and native options. Focus on the setup friction that remains, including stock behavior and the way a customer sees the offer.
+
+## 10. Subscription operations for a defined niche
+
+**Merchant:** a subscription business with a repeated exception, such as a seasonal pause.
+
+**First version:** solve one operational task around an existing subscription workflow.
+
+**Validate:** confirm the integration points and permissions with the existing provider. Avoid rebuilding billing, contracts and payment recovery merely to solve a small scheduling problem.
+
+## 11. Localization quality checks
+
+**Merchant:** a store maintaining several language versions of its catalog.
+
+**First version:** detect missing translations and inconsistent product terminology, then let a person approve fixes.
+
+**Validate:** compare Shopify’s existing translation features and the merchant’s current process. Automated translation quality and completeness are different problems; choose one that has a clear owner.
+
+## 12. Fulfillment exception monitoring
+
+**Merchant:** an operations team investigating orders that do not progress as expected.
+
+**First version:** define a small set of exception rules and a queue with a responsible person and next action.
+
+**Validate:** verify that the source data arrives in time and distinguishes a real problem from an expected delay. Test how the app behaves when a provider sends duplicate or late updates.
+
+## 13. Guided product selection
+
+**Merchant:** a specialist store that repeatedly explains how to choose between similar products.
+
+**First version:** a short decision path based on the merchant’s own selection criteria, ending in an explainable recommendation.
+
+**Validate:** compare the questions customers ask with what product filters already solve. Measure whether the guide helps customers make a decision, not just whether they finish it.
+
+## 14. Operational data views for small teams
+
+**Merchant:** a team copying data into spreadsheets to answer the same weekly question.
+
+**First version:** one reusable view with clear definitions and a reliable export.
+
+**Validate:** agree on the business question and data source before building charts. [Adminmate](https://adminmate.io) is an example from the broader database tooling category; it is not presented here as a Shopify app.
+
+## 15. App and storefront change checks
+
+**Merchant:** a team that frequently changes themes, app settings or product layouts.
+
+**First version:** a repeatable checklist of key storefront journeys, with evidence of what changed and a person responsible for reviewing it.
+
+**Validate:** establish which changes actually break the merchant’s workflow. Keep checks limited to behavior you can observe reliably rather than promising that every possible conflict will be detected.
+
+## A decision framework before you commit
+
+Score ideas against evidence you have collected, not excitement alone:
+
+| Question | Useful evidence |
+| --- | --- |
+| Does the problem repeat? | Recent examples from several merchants in the same segment |
+| Is the workaround costly? | Observed time, errors or delayed work |
+| Is the buyer reachable? | A channel through which relevant merchants agree to talk |
+| Can you deliver the workflow? | A prototype tested against real constraints |
+| Will they pay? | A concrete paid pilot discussion with a clear scope |
+| Can you support it? | A realistic estimate of operational and support costs |
+
+Keep the highest-risk assumption visible. If a prototype depends on a platform capability, confirm it in [Shopify’s current app documentation](https://shopify.dev/docs/apps) before spending weeks on the interface. For a listed app, review [Shopify’s App Store guidance](https://shopify.dev/docs/apps/launch/shopify-app-store/best-practices) early.
+
+Once you have evidence for one narrow workflow, follow our [launch guide](https://penida.io/blog/how-to-launch-a-shopify-app). If the product already works, use the [first 1,000 users guide](https://penida.io/blog/first-1000-users-shopify-app) to test distribution.
+
+---
+Source: https://penida.io/blog/shopify-app-ideas
+Updated: September 23, 2026
+
+
+---
+
+# How to Get Your First 1,000 Users for a Shopify App
+
+The useful target is a group of merchants who keep getting value from your app. A lifetime install counter cannot tell you whether the product is working. This guide sets out a practical way to test acquisition and retention without assuming a fixed timeline or a secret App Store ranking formula.
+
+## Define what counts as a user
+
+Choose an activity that reflects the app’s purpose. For a booking tool, that could be a merchant receiving a valid booking. For digital delivery, it could be an order whose file was delivered successfully. Agree on the time window and count stores consistently.
+
+Keep these numbers separate:
+
+- **Installs:** stores that installed the app during the period.
+- **Activated stores:** stores that completed the defined first-value event.
+- **Retained stores:** an eligible cohort that still uses the core workflow after a stated interval.
+- **Paying stores:** stores with an active paid relationship under your billing definition.
+
+A hypothetical cohort of 100 installs with 40 activated stores gives a 40% activation rate. If 30 of those 40 stores still perform the workflow after the chosen interval, that is 75% retention among activated stores. These are illustrative calculations, not Penida results or industry benchmarks.
+
+## Make onboarding your first growth project
+
+Observe where a merchant stops between installation and the first useful outcome. Ask permission to watch a setup session. Record the step, what the person expected and the smallest change that would make it clearer.
+
+For a digital product workflow, a merchant may attach a file successfully but never place a test order. A short test-order checklist could be more helpful than an additional settings screen. For booking, showing how availability affects the storefront may resolve confusion sooner than a long explanation of every option.
+
+Review errors and support questions together. If the same setup issue appears in several conversations, fix the product and update the help content so the next merchant does not need to ask.
+
+## Help the right merchants understand the listing
+
+Explain the specific problem, who the app fits and what a merchant can expect to do first. Use screenshots of the current product and readable captions. Keep compatibility, pricing and limitations consistent with the installation experience.
+
+Use the language merchants use to describe their task. Test clarity with people who have not seen the app before. A useful question is: “What do you think this app would let you do?” If their answer differs from the product, improve the listing before adding more traffic.
+
+Treat search visibility as an observation, not proof of a particular ranking formula. Listing visits, installs and activation tell different parts of the story. Follow [Shopify’s current App Store guidance](https://shopify.dev/docs/apps/launch/shopify-app-store/best-practices) for listing requirements and best practices.
+
+## Ask for honest feedback
+
+Ask for a review at an appropriate moment without blocking a merchant’s task. Use neutral wording, allow them to decline and avoid rewards or requests for a positive rating. Do not make support conditional on leaving, changing or removing a review. Shopify’s rules explicitly prohibit incentivized and biased review requests. [Shopify: manage app reviews](https://shopify.dev/docs/apps/launch/marketing/manage-app-reviews).
+
+For example, a neutral invitation can say: “You can share your experience with the app on our Shopify listing.” Keep private product feedback available too. When someone reports a problem, understand and fix it on its merits.
+
+A review count is not a substitute for retention. Read the substance of feedback and track which problems recur, including feedback from merchants who stop using the app.
+
+## Publish content that completes a task
+
+Choose questions that your intended merchant needs answered before or during setup. A useful guide shows the prerequisites, steps, result and limitations of one workflow. Include current screenshots when they clarify a step, and update the article when the interface changes.
+
+For an app in the digital-delivery category, a guide might walk through preparing a file, attaching it to a product and testing delivery. For bookings, it could explain the decisions behind capacity and time zones. Link to the relevant product only where it helps the reader complete the task.
+
+Measure qualified visits and the next useful action. Avoid promising a traffic increase or install rate based on publishing frequency alone. One accurate guide that answers a repeated support question may be a better starting point than a calendar full of broad posts.
+
+## Test communities and partnerships carefully
+
+Participate where the relevant merchants already discuss their workflow. Answer the question asked, disclose your connection when mentioning your app and respect the community’s rules. Do not collect contact details merely to send unsolicited promotion.
+
+For agency partnerships, prepare a short description of the ideal merchant, a working demo, setup documentation and a support contact. Test one client workflow together before promising an integration or a recurring flow of referrals. Agree explicitly on any commercial terms; there is no universal referral rate that fits every app.
+
+Record why each qualified merchant decided to try the product. This can reveal that a smaller, specific partner channel brings better-fit users than a larger generic audience.
+
+## Choose a trial you can sustain
+
+A free plan or trial should let a merchant evaluate a real outcome while keeping your costs predictable. Model storage, message volume, AI usage, support and any external service charges for heavy use as well as average use.
+
+Explain limits and upgrade triggers before the merchant reaches them. Check current plan details on the relevant product site instead of copying an old comparison article. Penida’s [app directory](https://penida.io/#apps) links to the current product websites.
+
+Do not assume that a set percentage of free users will upgrade. Measure conversion by cohort and record whether stores had enough time and opportunity to use the paid feature.
+
+## Add paid acquisition when you can measure quality
+
+Choose a small budget and a question the experiment should answer. For example: can a campaign reach stores with a particular booking workflow at a cost your margins can support?
+
+Track the path from visit to install, activation, retention and payment. Cost per install alone can hide poor fit. Compare acquisition cost with contribution margin after variable costs, and use actual observed retention before projecting long-term returns.
+
+A hypothetical €120 acquisition cost with €30 monthly contribution margin implies a four-month simple payback, assuming the customer stays and costs do not change. That example is arithmetic, not a spending recommendation or a Penida benchmark.
+
+## Use a review cadence with decision rules
+
+Start with a short experiment log rather than many dashboards:
+
+| Experiment | Signal to inspect | Possible next decision |
+| --- | --- | --- |
+| Simplify setup | More eligible stores reach first value | Keep the change and inspect the next obstacle |
+| Clarify the listing | Better-fit installs and fewer mismatched expectations | Refine the message with merchant feedback |
+| Publish a workflow guide | Readers complete a relevant next step | Improve the missing step or expand a useful topic |
+| Trial a partner channel | Referred stores activate and remain active | Repeat with a clearly defined partner profile |
+| Test a paid campaign | Acquisition cost fits observed contribution and retention | Increase cautiously, revise or stop |
+
+Review the results at a cadence that fits the product’s usage cycle. A monthly booking workflow needs a different observation window from a daily support tool. There is no universal month in which an app should reach 1,000 active stores.
+
+If installs rise but activation does not, work on setup. If activation rises but retained use does not, revisit the recurring value. If retention is promising but few suitable merchants find the app, focus on distribution. Our [launch guide](https://penida.io/blog/how-to-launch-a-shopify-app) and [app idea framework](https://penida.io/blog/shopify-app-ideas) cover the earlier decisions.
+
+---
+Source: https://penida.io/blog/first-1000-users-shopify-app
+Updated: September 23, 2026
+
+
+---
+
+# Privacy Policy
+
+How Penida handles personal information on this website, and where to find the policy for each app.
+
+## 1\. Who is responsible
+
+This website is operated by PENIDA, a French société par actions simplifiée (SAS), registered under SIREN 880 337 084, with its registered office at 14 rue Charles V, 75004 Paris, France. Contact [penidastudio@gmail.com](mailto:penidastudio@gmail.com) about privacy or your personal information.
+
+This notice covers the Penida studio website and enquiries sent to our team. For an application, refer to its own privacy policy linked below.
+
+## 2\. Information involved
+
+**Website delivery:** network requests include an IP address, browser information and the requested page. The hosting service needs these to deliver and protect the website.
+
+**Enquiries:** when you contact us by email or live chat, we receive the information you choose to send, such as your name, email address, store URL, message and attachments.
+
+**Support chat:** this site uses Orka. The widget loads automatically when you visit a page and connects your browser to Orka; the service can process conversation content, session identifiers and page or device context needed for support. Please avoid sharing passwords, payment card details or unnecessary sensitive information.
+
+Reading the website does not create a Shopify or Penida app account. Images, logos and fonts are served with this website.
+
+## 3\. Why information is used
+
+We use information to answer enquiries, provide requested assistance, discuss a potential business relationship, keep the website working and prevent abuse. Where GDPR applies, the relevant basis is taking steps you request before a contract or performing a contract, our legitimate interests in responding to enquiries and maintaining a secure website, or a legal obligation. Consent applies where it is required for an optional activity.
+
+You choose whether to contact us. Without enough information to understand and answer a request, we may be unable to help. We do not use this website to make decisions that produce legal or similarly significant effects about you solely by automated processing.
+
+## 4\. Recipients and linked services
+
+Our authorized team and providers involved in hosting, communications and support receive information needed for their role. Orka provides the support widget; its [privacy policy](https://orka.chat/privacy-policy) explains its service. Information may also be disclosed to meet a legal obligation or protect lawful rights.
+
+We do not sell personal information. Clicking a product, Shopify or social link takes you to a separate service whose own policy applies. No advertising or audience-measurement script is included in this version of the studio website.
+
+## 5\. Retention
+
+We retain enquiries and related correspondence for the time needed to handle the request, maintain the relevant business relationship and address any legal or dispute requirements. Security records are kept for the period needed to investigate incidents and protect the service. The period depends on the record and purpose; contact us for the retention information relevant to your request.
+
+App account, booking, order and customer data follow the relevant app’s arrangements. Uninstalling an app and deleting an email or support conversation are separate processes.
+
+## 6\. Security and international processing
+
+Access controls and appropriate technical and organizational measures help protect information. No online service can guarantee absolute security.
+
+Providers can process information outside the European Economic Area. Where GDPR requires safeguards, the relevant processing must be covered by an adequacy decision or an appropriate transfer mechanism, such as standard contractual clauses. Contact us to ask about the providers and safeguards relevant to your data.
+
+## 7\. Your choices and rights
+
+Depending on the applicable law and circumstances, you can request access, correction, erasure, restriction or portability, object to processing and withdraw consent for future processing. You can object to direct marketing. Email [penidastudio@gmail.com](mailto:penidastudio@gmail.com) with enough information to locate your request. We may need proportionate identity verification and will respond within the applicable statutory time limits.
+
+If your question concerns a purchase or booking with a merchant, contact that merchant first. They determine how customer information is used for that relationship.
+
+You can complain to your local supervisory authority. In France, this is the [CNIL](https://www.cnil.fr/en/complaints).
+
+## 8\. Policies for our apps
+
+-   [Cowlendar Privacy Policy](https://cowlendar.com/privacy-policy)
+-   [Big Digital Download Privacy Policy](https://www.bigdigitaldownload.com/privacy-policy)
+-   [Orka Privacy Policy](https://orka.chat/privacy-policy)
+
+For another application, use the policy linked from its current Shopify listing.
+
+## 9\. Updates
+
+The date at the top identifies this revision. We update this notice when the website or its processing changes and provide additional notice when required. See our [Cookie Policy](https://penida.io/cookie-policy) for browser storage and our [Legal Notice](https://penida.io/legal-notice) for publisher details.
+
+---
+Source: https://penida.io/privacy-policy
+Updated: September 23, 2026
+
+
+---
+
+# Cookie Policy
+
+Browser storage and third-party connections on the Penida studio website.
+
+## 1\. Browsing this website
+
+The site’s navigation, animations and locally hosted images and fonts do not require advertising or analytics cookies. This version does not include an advertising pixel or an audience-measurement script.
+
+The website host can process technical network information to serve pages and protect infrastructure. This is distinct from advertising tracking in your browser.
+
+## 2\. Orka support chat
+
+The Orka support widget loads automatically when you visit a page. This connects your browser to Orka before you open a conversation. Orka can process technical connection information and use browser storage or session identifiers to operate the widget and maintain conversation context.
+
+Messages and any details you submit are sent when you use the chat. Closing the window hides it but does not delete its conversation or stored data. For conversation deletion requests, contact [penidastudio@gmail.com](mailto:penidastudio@gmail.com). See [Orka’s Privacy Policy](https://orka.chat/privacy-policy) for the service’s handling of personal data.
+
+## 3\. Your choices
+
+You can use [email](mailto:penidastudio@gmail.com) to reach us. Choosing not to open a conversation does not prevent the widget from loading. Your browser settings let you inspect, restrict and remove stored site data; content-blocking settings can also restrict third-party connections. Blocking storage can affect the chat.
+
+Linked websites, including Shopify and product websites, have their own cookie practices.
+
+## 4\. Contact and changes
+
+For questions about this notice, contact PENIDA at [penidastudio@gmail.com](mailto:penidastudio@gmail.com) or 14 rue Charles V, 75004 Paris, France. We will update this notice if additional storage or tracking features are introduced.
+
+---
+Source: https://penida.io/cookie-policy
+Updated: September 23, 2026
+
+
+---
+
+# Website Terms & Conditions
+
+Terms for visiting the Penida studio website. Product subscriptions follow their own applicable terms.
+
+## 1\. Scope and publisher
+
+This website presents the apps and work of the Penida studio. It is published by PENIDA SAS, SIREN 880 337 084, 14 rue Charles V, 75004 Paris, France. Contact [penidastudio@gmail.com](mailto:penidastudio@gmail.com) with questions.
+
+These terms concern use of the informational website. They do not replace a product’s terms, Shopify’s terms, a subscription agreement or a data-processing agreement.
+
+## 2\. Product information
+
+Product descriptions, review counts, usage statistics and articles provide information about the studio and its apps. Product features and prices can change. Review the relevant product website and current Shopify listing before choosing an app; the plan and terms shown during subscription govern your purchase.
+
+No subscription or payment is completed on this studio website. Links and live chat let you learn about products or contact the team.
+
+## 3\. Permitted use
+
+You may browse the website and use its links to learn about our services. Do not interfere with its operation, attempt unauthorized access, submit malicious content or use the site unlawfully. Only send support information you are entitled to disclose.
+
+## 4\. Content and third-party brands
+
+The website’s text, branding, images and other content are protected by applicable intellectual-property rights. Rights in third-party logos and names remain with their respective owners. Their display does not grant a license to use their trademarks or imply a partnership beyond the context stated on the page.
+
+Contact us before reusing site content beyond what applicable law permits.
+
+## 5\. Availability and external links
+
+We seek to keep the website accurate and accessible, but interruptions and errors can occur. Links to external websites are provided for convenience; those services control their own content, availability and policies. Articles are general information, not a guarantee of business results.
+
+Nothing in these terms excludes liability or rights that cannot lawfully be excluded. Product-specific commitments are governed by the relevant product agreement.
+
+## 6\. Privacy
+
+Our [Privacy Policy](https://penida.io/privacy-policy) and [Cookie Policy](https://penida.io/cookie-policy) explain how this website and its support chat handle information. A privacy notice provides information about processing; it does not make all processing conditional on blanket agreement to that notice.
+
+## 7\. Applicable law and contact
+
+French law applies to these website terms, subject to any mandatory protections available to you. Where a dispute arises, contact us first at [penidastudio@gmail.com](mailto:penidastudio@gmail.com) so we can try to resolve it. Jurisdiction is determined by applicable law.
+
+We may update these terms. The revision date identifies the current website version.
+
+---
+Source: https://penida.io/terms-and-conditions
+Updated: September 23, 2026
+
+
+---
+
+# Legal Notice
+
+Publisher and contact information for Penida.
+
+## 1\. Website publisher
+
+**PENIDA**  
+Société par actions simplifiée (SAS)  
+14 rue Charles V, 75004 Paris, France  
+SIREN: 880 337 084  
+SIRET: 880 337 084 00037  
+VAT: FR24880337084  
+Share capital: €1,000  
+Registered with the Paris trade and companies register under number 880 337 084.
+
+Email: [penidastudio@gmail.com](mailto:penidastudio@gmail.com)
+
+[View the official company record](https://annuaire-entreprises.data.gouv.fr/entreprise/penida-880337084).
+
+## 2\. The studio and its apps
+
+Penida is the studio founded by Marc and Charles. For the application you use, consult its own policy and contractual information. Our [app policy directory](https://penida.io/privacy-policy#app-policies) links to the relevant notices.
+
+## 3\. Website hosting
+
+This version of the website is published through OpenAI Sites and served using Cloudflare infrastructure.
+
+Cloudflare, Inc.  
+101 Townsend Street, San Francisco, CA 94107, United States  
+[Cloudflare privacy and contact information](https://www.cloudflare.com/privacypolicy/)
+
+## 4\. Content and privacy requests
+
+For a correction, a question about the website or a privacy request, email [penidastudio@gmail.com](mailto:penidastudio@gmail.com). Product-specific support is also available through each app.
+
+See the [Privacy Policy](https://penida.io/privacy-policy), [Cookie Policy](https://penida.io/cookie-policy) and [Website Terms & Conditions](https://penida.io/terms-and-conditions).
+
+---
+Source: https://penida.io/legal-notice
+Updated: September 23, 2026
+
+
+---
+
+# Penida: official reference
+
+Penida is a French startup studio building SaaS products and Shopify apps. The studio was founded by Marc and Charles. Its website presents its products, team and practical articles for app builders.
+
+Updated: September 23, 2026.
+
+## Website and contact
+
+- Website: [Penida](https://penida.io)
+- Contact: [penidastudio@gmail.com](mailto:penidastudio@gmail.com)
+- Shopify developer profile: [Penida on the Shopify App Store](https://apps.shopify.com/partners/cmd1)
+- Publisher information: [Legal Notice](https://penida.io/legal-notice)
+
+## Products featured by the studio
+
+| Product | What it does | Official destination |
+| --- | --- | --- |
+| Cowlendar | Booking and appointment tools for Shopify merchants | [cowlendar.com](https://cowlendar.com) |
+| Orka | Live chat with human and AI support for websites | [orka.chat](https://orka.chat) |
+| Big Digital Download | Digital file sales and delivery for Shopify | [bigdigitaldownload.com](https://www.bigdigitaldownload.com) |
+| Adminmate | Database administration and operational data tools | [adminmate.io](https://adminmate.io) |
+| Beez | Bundle and subscription tools featured in the studio portfolio | [Shopify developer profile](https://apps.shopify.com/partners/cmd1) |
+| Easy Order Editing | Tools for customers to edit Shopify orders after purchase | [easyorderediting.com](https://easyorderediting.com) |
+
+For current features, availability, pricing and plan limits, use the product’s own website or its current Shopify listing. This page does not provide a live pricing or performance feed.
+
+## Portfolio updates
+
+Goat Badges and Bee Logo Showcase have been sold and are no longer current Penida apps. Bee Logo Showcase is distinct from the Beez bundle and subscription products.
+
+## Articles
+
+- [How to Launch a Shopify App: The Complete Guide](https://penida.io/blog/how-to-launch-a-shopify-app)
+- [15 Profitable Shopify App Ideas to Build in 2026](https://penida.io/blog/shopify-app-ideas)
+- [How to Get Your First 1,000 Users for a Shopify App](https://penida.io/blog/first-1000-users-shopify-app)
+
+The articles include practical suggestions and explicitly hypothetical examples. Their illustrative calculations are not reported Penida performance data.
+
+## Privacy and terms
+
+- [Website Privacy Policy](https://penida.io/privacy-policy)
+- [Cookie Policy](https://penida.io/cookie-policy)
+- [Website Terms & Conditions](https://penida.io/terms-and-conditions)
+- [Legal Notice](https://penida.io/legal-notice)
+
+For app-specific privacy information, follow the product links in the [app policy directory](https://penida.io/privacy-policy#app-policies).
+
+## Machine-readable versions
+
+- [This reference in Markdown](https://penida.io/ai.md)
+- [LLM resource guide](https://penida.io/llms)
+- [Concise source index](https://penida.io/llms.txt)
+- [Full reference collection](https://penida.io/llms-full.txt)
+- [Sitemap](https://penida.io/sitemap.xml)
+
+---
+Source: https://penida.io/ai
+Updated: September 23, 2026

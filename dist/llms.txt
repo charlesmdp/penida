@@ -1,0 +1,30 @@
+# Penida
+
+> French startup studio building SaaS products and Shopify apps. Founded by Marc and Charles.
+
+Updated: September 23, 2026. Product features and pricing are maintained on each product’s official website.
+
+## Studio
+
+- [Official reference](https://penida.io/ai.md): Studio facts, current products and portfolio updates.
+- [Homepage](https://penida.io/index.md): Studio presentation and app directory.
+- [Contact](mailto:penidastudio@gmail.com): General enquiries.
+
+## Articles
+
+- [How to Launch a Shopify App: The Complete Guide](https://penida.io/blog/how-to-launch-a-shopify-app.md): From a merchant problem to a working app, a review-ready listing and a measurable launch.
+- [15 Profitable Shopify App Ideas to Build in 2026](https://penida.io/blog/shopify-app-ideas.md): 15 directions to investigate, with a target merchant, first version and validation question for each.
+- [How to Get Your First 1,000 Users for a Shopify App](https://penida.io/blog/first-1000-users-shopify-app.md): A practical framework for activation, honest reviews, content, partnerships and retained usage.
+
+## Policies
+
+- [Privacy Policy](https://penida.io/privacy-policy.md): How Penida handles personal information on this website, and where to find the policy for each app.
+- [Cookie Policy](https://penida.io/cookie-policy.md): Browser storage and third-party connections on the Penida studio website.
+- [Website Terms & Conditions](https://penida.io/terms-and-conditions.md): Terms for visiting the Penida studio website. Product subscriptions follow their own applicable terms.
+- [Legal Notice](https://penida.io/legal-notice.md): Publisher and contact information for Penida.
+
+## Optional
+
+- [All reference content](https://penida.io/llms-full.txt): Combined studio reference, articles and policies.
+- [Resource guide](https://penida.io/llms.md): Available formats and freshness.
+- [Sitemap](https://penida.io/sitemap.xml): Canonical HTML pages.
